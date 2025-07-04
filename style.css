@@ -1,0 +1,146 @@
+.botoes-topo {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .botao-topo {
+    width: 40px;
+    height: 30px;
+    background-color: #9ee89a;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-topo:hover {
+    background-color: #66a649;
+  }
+  :root {
+    --verde-claro: #88f26b;
+    --verde-medio: #66a649;
+    --verde-escuro: #34592a;
+    --azul: #1f6feb;
+    --preto: #0d0d0d;
+    --branco: #ffffff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--branco);
+    color: var(--preto);
+  }
+  
+  .topo {
+    background-color: var(--azul);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--verde-claro);
+    padding: 4rem 2rem;
+  }
+  
+  .hero-texto {
+    flex: 1 1 400px;
+    max-width: 600px;
+  }
+  
+  .hero-texto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-texto p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .botao {
+    padding: 0.8rem 1.5rem;
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: var(--verde-escuro);
+  }
+  
+  .hero-imagem img {
+    height: 300px;
+    max-width: 100%;
+  }
+  
+  .destaque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 3rem 2rem;
+    gap: 2rem;
+  }
+  
+  .avatar-mulher img {
+    height: 200px;
+  }
+  
+  .destaque-box {
+    max-width: 500px;
+  }
+  
+  .destaque-box h3 {
+    font-size: 1.8rem;
+    color: var(--verde-escuro);
+    margin-bottom: 1rem;
+  }
+  
+  .destaque-box p {
+    font-size: 1rem;
+    color: #333;
+  }
+    
